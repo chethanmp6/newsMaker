@@ -1,0 +1,66 @@
+2025-08-29 17:21:19,890 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:21:21,678 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:24:33,373 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:24:34,908 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:24:36,898 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:24:38,195 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:27:23,675 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:27:24,405 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:27:26,511 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:27:27,228 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:27:28,067 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:27:29,644 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:29:01,346 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:29:03,057 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:29:04,277 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:29:05,348 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:29:05,885 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:29:06,859 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:29:55,602 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:29:56,225 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:29:57,361 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:29:58,263 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:29:58,904 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:29:59,826 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:30:00,849 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:37:13,273 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:37:14,193 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:37:15,017 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:37:16,093 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:37:16,688 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:37:17,876 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:37:18,704 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:37:20,323 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:37:21,183 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-08-29 17:37:21,640 - src.kannada_news_automation.agents.youtube_uploader - ERROR - YouTube client secrets file not found: ./config/youtube_client_secret.json
+2025-08-29 17:37:21,645 - src.kannada_news_automation.main - INFO - Starting Kannada News Automation System
+2025-08-29 17:37:21,645 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for national: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:37:21,645 - src.kannada_news_automation.agents.audio_generator - ERROR - Error generating Kannada audio for test: 'AudioGeneratorAgent' object has no attribute 'agent'
+2025-08-29 17:37:21,645 - src.kannada_news_automation.main - WARNING - System started with health issues: {'overall': 'unhealthy', 'components': {'news_collector': 'unhealthy'}, 'timestamp': '2025-08-29T17:37:21.645650', 'error': "'AudioGeneratorAgent' object has no attribute 'agent'"}
+2025-08-29 17:39:40,165 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for national: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:39:40,166 - src.kannada_news_automation.agents.audio_generator - ERROR - Error generating Kannada audio for test: 'AudioGeneratorAgent' object has no attribute 'agent'
+2025-08-29 17:40:32,522 - src.kannada_news_automation.main - INFO - Manual pipeline trigger requested
+2025-08-29 17:40:32,523 - src.kannada_news_automation.main - INFO - Starting background pipeline task: manual_1756469432
+2025-08-29 17:40:32,523 - src.kannada_news_automation.pipeline - INFO - Starting news automation pipeline...
+2025-08-29 17:40:32,523 - src.kannada_news_automation.pipeline - INFO - Step 1: Collecting trending news...
+2025-08-29 17:40:32,523 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for international: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:40:32,523 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for national: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:40:32,524 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for karnataka: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:40:32,524 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for tamilnadu: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:40:32,524 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for andhra: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:40:32,524 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for kerala: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:40:32,524 - src.kannada_news_automation.pipeline - ERROR - Pipeline failed after 0.00 seconds: No news data collected
+2025-08-29 17:40:32,525 - src.kannada_news_automation.main - INFO - Background pipeline task manual_1756469432 completed: False
+2025-08-29 17:40:34,020 - src.kannada_news_automation.main - INFO - Manual pipeline trigger requested
+2025-08-29 17:40:34,020 - src.kannada_news_automation.main - INFO - Starting background pipeline task: manual_1756469434
+2025-08-29 17:40:34,020 - src.kannada_news_automation.pipeline - INFO - Starting news automation pipeline...
+2025-08-29 17:40:34,020 - src.kannada_news_automation.pipeline - INFO - Step 1: Collecting trending news...
+2025-08-29 17:40:34,020 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for international: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:40:34,020 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for national: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:40:34,020 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for karnataka: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:40:34,021 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for tamilnadu: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:40:34,021 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for andhra: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:40:34,021 - src.kannada_news_automation.agents.news_collector - ERROR - Error collecting news for kerala: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-08-29 17:40:34,021 - src.kannada_news_automation.pipeline - ERROR - Pipeline failed after 0.00 seconds: No news data collected
+2025-08-29 17:40:34,021 - src.kannada_news_automation.main - INFO - Background pipeline task manual_1756469434 completed: False
+2025-08-29 18:07:12,457 - src.kannada_news_automation.main - INFO - Shutting down Kannada News Automation System
