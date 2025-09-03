@@ -64,3 +64,122 @@
 2025-08-29 17:40:34,021 - src.kannada_news_automation.pipeline - ERROR - Pipeline failed after 0.00 seconds: No news data collected
 2025-08-29 17:40:34,021 - src.kannada_news_automation.main - INFO - Background pipeline task manual_1756469434 completed: False
 2025-08-29 18:07:12,457 - src.kannada_news_automation.main - INFO - Shutting down Kannada News Automation System
+2025-09-03 17:40:35,159 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:37,655 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:40,710 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:41,384 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:42,408 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:43,433 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:44,047 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:44,969 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:46,245 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:46,470 - kannada_news_automation.agents.youtube_uploader - ERROR - YouTube client secrets file not found: ./config/youtube_client_secret.json
+2025-09-03 17:40:47,356 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 17:40:54,596 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:55,627 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:57,153 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:58,286 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:40:59,866 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:41:00,994 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:41:03,123 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:41:04,424 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:41:05,289 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:41:05,509 - kannada_news_automation.agents.youtube_uploader - ERROR - YouTube client secrets file not found: ./config/youtube_client_secret.json
+2025-09-03 17:41:05,514 - kannada_news_automation.main - INFO - Starting Kannada News Automation System
+2025-09-03 17:41:05,514 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for national: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:41:05,514 - kannada_news_automation.agents.audio_generator - ERROR - Error generating Kannada audio for test: 'AudioGeneratorAgent' object has no attribute 'agent'
+2025-09-03 17:41:05,514 - kannada_news_automation.main - WARNING - System started with health issues: {'overall': 'unhealthy', 'components': {'news_collector': 'unhealthy'}, 'timestamp': '2025-09-03T17:41:05.514434', 'error': "'AudioGeneratorAgent' object has no attribute 'agent'"}
+2025-09-03 17:59:00,554 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:02,090 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:03,422 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:04,639 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:05,674 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:06,495 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:07,315 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:08,847 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:09,416 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:09,924 - kannada_news_automation.agents.youtube_uploader - ERROR - YouTube client secrets file not found: ./config/youtube_client_secret.json
+2025-09-03 17:59:10,914 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 17:59:17,358 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:18,178 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:19,078 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:19,511 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:20,330 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:20,946 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:22,069 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:22,893 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:23,509 - httpx - INFO - HTTP Request: POST https://api.openai.com/v1/embeddings "HTTP/1.1 200 OK"
+2025-09-03 17:59:23,518 - kannada_news_automation.agents.youtube_uploader - ERROR - YouTube client secrets file not found: ./config/youtube_client_secret.json
+2025-09-03 17:59:23,522 - kannada_news_automation.main - INFO - Starting Kannada News Automation System
+2025-09-03 17:59:23,522 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for national: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:23,522 - kannada_news_automation.agents.audio_generator - ERROR - Error generating Kannada audio for test: 'AudioGeneratorAgent' object has no attribute 'agent'
+2025-09-03 17:59:23,522 - kannada_news_automation.main - WARNING - System started with health issues: {'overall': 'unhealthy', 'components': {'news_collector': 'unhealthy'}, 'timestamp': '2025-09-03T17:59:23.522488', 'error': "'AudioGeneratorAgent' object has no attribute 'agent'"}
+2025-09-03 17:59:44,390 - kannada_news_automation.main - INFO - Manual pipeline trigger requested
+2025-09-03 17:59:44,390 - kannada_news_automation.main - INFO - Starting background pipeline task: manual_1756902584
+2025-09-03 17:59:44,391 - kannada_news_automation.pipeline - INFO - Starting news automation pipeline...
+2025-09-03 17:59:44,391 - kannada_news_automation.pipeline - INFO - Step 1: Collecting trending news...
+2025-09-03 17:59:44,391 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for international: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:44,391 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for national: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:44,392 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for karnataka: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:44,392 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for tamilnadu: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:44,392 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for andhra: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:44,392 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for kerala: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:44,393 - kannada_news_automation.pipeline - ERROR - Pipeline failed after 0.00 seconds: No news data collected
+2025-09-03 17:59:44,393 - kannada_news_automation.main - INFO - Background pipeline task manual_1756902584 completed: False
+2025-09-03 17:59:45,357 - kannada_news_automation.main - INFO - Manual pipeline trigger requested
+2025-09-03 17:59:45,357 - kannada_news_automation.main - INFO - Starting background pipeline task: manual_1756902585
+2025-09-03 17:59:45,357 - kannada_news_automation.pipeline - INFO - Starting news automation pipeline...
+2025-09-03 17:59:45,357 - kannada_news_automation.pipeline - INFO - Step 1: Collecting trending news...
+2025-09-03 17:59:45,358 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for international: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:45,358 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for national: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:45,358 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for karnataka: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:45,358 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for tamilnadu: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:45,358 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for andhra: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:45,359 - kannada_news_automation.agents.news_collector - ERROR - Error collecting news for kerala: 'NewsCollectionAgent' object has no attribute 'agent'
+2025-09-03 17:59:45,359 - kannada_news_automation.pipeline - ERROR - Pipeline failed after 0.00 seconds: No news data collected
+2025-09-03 17:59:45,359 - kannada_news_automation.main - INFO - Background pipeline task manual_1756902585 completed: False
+2025-09-03 18:29:42,317 - watchfiles.main - INFO - 1 change detected
+2025-09-03 18:29:43,869 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:32:40,089 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:32:46,481 - watchfiles.main - INFO - 30 changes detected
+2025-09-03 18:33:03,837 - watchfiles.main - INFO - 37 changes detected
+2025-09-03 18:33:04,573 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:34:13,856 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:35:57,030 - watchfiles.main - INFO - 1 change detected
+2025-09-03 18:35:57,865 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:36:07,503 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:36:26,415 - watchfiles.main - INFO - 1 change detected
+2025-09-03 18:36:27,147 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:36:29,728 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:36:35,347 - watchfiles.main - INFO - 11 changes detected
+2025-09-03 18:36:38,588 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:37:01,953 - watchfiles.main - INFO - 25 changes detected
+2025-09-03 18:37:02,734 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:40:09,320 - watchfiles.main - INFO - 1 change detected
+2025-09-03 18:40:10,209 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:40:18,377 - watchfiles.main - INFO - 3 changes detected
+2025-09-03 18:41:17,411 - watchfiles.main - INFO - 1 change detected
+2025-09-03 18:41:18,504 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:41:22,305 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:41:27,953 - watchfiles.main - INFO - 3 changes detected
+2025-09-03 18:41:28,314 - watchfiles.main - INFO - 1 change detected
+2025-09-03 18:41:29,566 - watchfiles.main - INFO - 1 change detected
+2025-09-03 18:41:30,988 - watchfiles.main - INFO - 1 change detected
+2025-09-03 18:41:31,400 - watchfiles.main - INFO - 7 changes detected
+2025-09-03 18:41:32,337 - watchfiles.main - INFO - 1 change detected
+2025-09-03 18:41:32,751 - watchfiles.main - INFO - 5 changes detected
+2025-09-03 18:41:37,354 - watchfiles.main - INFO - 3 changes detected
+2025-09-03 18:41:50,728 - watchfiles.main - INFO - 14 changes detected
+2025-09-03 18:41:51,465 - watchfiles.main - INFO - 2 changes detected
+2025-09-03 18:41:54,419 - watchfiles.main - INFO - 3 changes detected
+2025-09-03 18:42:19,289 - watchfiles.main - INFO - 7 changes detected
+2025-09-03 18:42:20,181 - watchfiles.main - INFO - 7 changes detected
+2025-09-03 18:42:22,032 - watchfiles.main - INFO - 7 changes detected
+2025-09-03 18:42:23,731 - watchfiles.main - INFO - 7 changes detected
+2025-09-03 18:42:24,570 - watchfiles.main - INFO - 7 changes detected
+2025-09-03 18:42:25,196 - watchfiles.main - INFO - 7 changes detected
+2025-09-03 18:42:25,981 - watchfiles.main - INFO - 7 changes detected
+2025-09-03 18:42:27,143 - watchfiles.main - INFO - 7 changes detected
+2025-09-03 18:42:27,960 - watchfiles.main - INFO - 7 changes detected
+2025-09-03 18:42:28,625 - watchfiles.main - INFO - 7 changes detected
+2025-09-03 18:42:29,351 - watchfiles.main - INFO - 7 changes detected

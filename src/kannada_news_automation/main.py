@@ -11,8 +11,13 @@ import time
 import threading
 from contextlib import asynccontextmanager
 
-from .pipeline import NewsAutomationPipeline
-from .config.settings import Settings
+import sys
+import os
+# Add the src directory to Python path
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
+
+from kannada_news_automation.pipeline import NewsAutomationPipeline
+from kannada_news_automation.config.settings import Settings
 
 # Configure logging
 logging.basicConfig(

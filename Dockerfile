@@ -30,10 +30,10 @@ COPY --from=builder --chown=app:app /app /app
 # Set PATH to include virtual environment
 ENV PATH="/app/.venv/bin:$PATH"
 
-WORKDIR /app
+WORKDIR /app/src
 
 # Create directories
-RUN mkdir -p data/knowledge_bases data/media_cache data/audio_cache data/output_videos logs
+RUN mkdir -p /app/data/knowledge_bases /app/data/media_cache /app/data/audio_cache /app/data/output_videos /app/logs
 
 # Create non-root user
 RUN useradd --create-home --shell /bin/bash app && \
@@ -47,5 +47,8 @@ HEALTHCHECK --interval=30s --timeout=10s --start-period=60s --retries=3 \
 
 EXPOSE 8001
 
-# Start command
-CMD ["python", "src/kannada_news_automation/main.py"]
+# Set PYTHONPATH
+ENV PYTHONPATH="/app/src:$PYTHONPATH"
+
+# Start command  
+CMD ["python", "-m", "kannada_news_automation.main"]
